@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>portfolio website</title>
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+               <img src="C:\Users\VRAJNISH\Documents\vs code\portfolio/Picsart_24-07-12_14-57-07-494.png" class="logo" >
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>                                                                                        
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">PROJECT</a></li>
+                    <li><a href="">CONTACT </a></li>
+                </ul>
+               <img src="C:\Users\VRAJNISH\Documents\vs code\portfolio/moon.png" id="icon">
+              
+               
+            </nav>
+
+            <div class="info">
+                <h1>I'm <span>Aghera</span> Vrajnish</h1>
+                <P>WEB-DEVELOPER <br> This is my official portfolio website to showcase my all works related to web developement.</P>
+                <a href="">Download Resume</a>
+            </div>
+
+            <div class="img-box">
+                <img src="C:\Users\VRAJNISH\Documents\vs code\portfolio/background.png" class="back-img">
+                <img src="C:\Users\VRAJNISH\Documents\vs code\portfolio/img.png" class="main-img">
+            </div>
+            
+            <div class="social-links">
+                <a href=""><i class="fab fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-github-square"></i></a>
+                <a href=""><i class="fab fa-instagram-square"></i></a>
+                
+                
+            </div>
+        </div>
+
+<script>
+
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "C:\Users\VRAJNISH\Documents\vs code\portfolio/soon.png";
+        }else{
+            icon.src = "C:\Users\VRAJNISH\Documents\vs code\portfolio/moon.png";
+        }
+    }
+</script>
+
+
+
+
+
+    </body>
+</html>
